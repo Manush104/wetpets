@@ -16,6 +16,7 @@
   "dependencies": {
     "@astrojs/cloudflare": "^13.2.1",
     "@astrojs/sitemap": "^3.7.3",
+    "@google/genai": "^2.7.0",
     "@sanity/client": "^7.20.0",
     "astro": "^6.1.4"
   },
