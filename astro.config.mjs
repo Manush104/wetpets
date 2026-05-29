@@ -8,6 +8,5 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://wetpets.store',
   integrations: [sitemap()],
-  output: 'hybrid',
   adapter: cloudflare(),
 });

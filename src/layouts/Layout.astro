@@ -1,8 +1,6 @@
 ---
 import '../styles/global.css';
 
-import CoweshBot from '../components/CoweshBot.astro';
-
 interface Props {
   title?: string;
   description?: string;
@@ -35,7 +33,6 @@ const {
   </head>
   <body>
     <slot />
-    <CoweshBot />
 
     <script>
       // Scroll reveal
