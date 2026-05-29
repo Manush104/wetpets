@@ -155,6 +155,11 @@ const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappText}`;
     color: var(--clr-text-muted);
     line-height: var(--lh-relaxed);
     flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: calc(14px * 1.6 * 2); /* Approximate 2 lines */
   }
 
   .prod-card__footer {
