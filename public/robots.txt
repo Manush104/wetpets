@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wetpets.in/sitemap-index.xml
